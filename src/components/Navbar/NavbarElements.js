@@ -7,6 +7,7 @@ export const Nav = styled.nav`
 background-color: #862325;
 display: flex;
 justify-content: center;
+padding: 1rem;
 
 `
 
@@ -15,7 +16,7 @@ color: #F9ECE4;
 display: flex;
 align-items: center;
 text-decoration: none;
-padding: 0 1rem;
+padding: 0;
 height: 100%;
 cursor: pointer;
 
@@ -32,4 +33,10 @@ align-items: center;
 text-align: center;
 justify-content: space-evenly;
 width: 100%;
+`
+
+export const Navlogo = styled.div`
+height: auto;
+width: 100%;
+max-width: 80px;
 `

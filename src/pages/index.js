@@ -10,7 +10,8 @@ const Home = () => {
     return (
         <>
     <HeroSection/>
-    
+    <h1>Hello</h1>
+
         </>
     )
 }

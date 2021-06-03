@@ -1,5 +1,5 @@
 import React from 'react'
-import {Nav, NavLink, Bars, NavMenu, NavMenuLeft, NavMenuCenter, NavMenuRight, mainMenu, NavbarContainer} from './NavbarElements'
+import {Nav, NavLink, Bars, NavMenu, NavMenuLeft, NavMenuCenter, NavMenuRight, mainMenu, NavbarContainer, Navlogo} from './NavbarElements'
 import logo from './../../Kloe-Logo.png'
 
 const Navbar = () => {
@@ -17,7 +17,9 @@ const Navbar = () => {
                </NavLink>
                
                <NavLink to = "/">
-                    <img src = {logo} alt = "logo" height ='100px' width='100px'/>
+                   <Navlogo>
+                    <img src = {logo} alt = "logo" height ='100%' width='100%'/>
+                    </Navlogo>
                 </NavLink>
 
                <NavLink to ="/shop" activeStyle>

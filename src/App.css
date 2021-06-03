@@ -1,0 +1,90 @@
+
+.pale-pink{
+  color: #FCD1D1;
+}
+
+.old-rose{
+  color: #A44F51;
+}
+
+.falu-red{
+  color: #862325;
+}
+
+.rosewood{
+  color: #5b1517;
+}
+
+.dark-sienna{
+  color: #2f0708;
+}
+
+.silver-pink{
+  color: #c4abac;
+}
+
+.cream{
+  color: #F9ECE4;
+}
+
+
+@font-face {
+  font-family: 'Beyond-Inifinity-Demo';
+  font-style: normal;
+  font-weight: normal;
+  src: url(fonts/Beyond-Infinity-Demo.woff);
+ 
+  }
+
+  h1 {
+    font-family: Beyond-Inifinity-Demo;
+    font-weight: 100;
+    font-size: 64px;
+  }
+
+  h2 {
+    font-family: Beyond-Inifinity-Demo;
+    font-weight: 100;
+    font-size: 40px;
+
+  }
+
+  h3 {
+    font-family: Beyond-Inifinity-Demo;
+    font-weight: 100;
+    font-size: 32px;
+  }
+
+  .subtitle{
+    font-weight: 800;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+  }
+
+  .body{
+    font-weight: 100;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  .body-bold{
+    font-weight: 800;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+  }
+
+  .small{
+    font-weight: 100;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  }
+
+  
+  * {
+    font-weight: 800;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+  }
+
+  

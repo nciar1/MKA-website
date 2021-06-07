@@ -4,7 +4,7 @@ import{BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Home from './pages';
 import Footer from './components/Footer';
 import ErrorPage from './pages/ErrorPage'
-import Contact from './components/Contact'
+import ContactPage from './pages/contactPage'
 
 
 
@@ -17,7 +17,7 @@ function App() {
       
       <Switch>
       <Route path = "/" component={Home} exact />
-      <Route path = "/Contact" component = {Contact} />
+      <Route path = "/Contact" component = {ContactPage} />
       
       <Route component = {ErrorPage} />
 

@@ -1,8 +1,9 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
-import { contactContainer } from './contactElements';
+import { contactContainer, Input, Form, Message } from './contactElements';
 import style from './../../App.css'
 import { Section } from '../SectionElements';
+import {InputButton} from '../ButtonElements'
 
 
 const Contact = () => {
@@ -22,25 +23,27 @@ const Contact = () => {
 
     return (
         
-<Section className='creme-bg'>
 
-<h2>Contact Me</h2>
-<bold>If you’d like to work together, feel free to send me a message. You can also find me on social media!</bold>
-    <form className="contact-form" onSubmit={sendEmail}>
+<>
+    <Form className="contact-form" onSubmit={sendEmail}>
+    
     <label>Name</label>
-    <input type="text" name="name" />
+    <Input type="text" name="name" />
+    
     <label>Email</label>
-    <input type="email" name="email" />
+    <Input type="email" name="email" />
+   
     <label>Subject</label>
-    <input type="subject" name="subject" />
+    <Input type="subject" name="subject" />
 
     <label>Message</label>
-    <textarea name="message" />
-    <input type="submit" value="Send" />
-  </form>
+    <Message name="message" />
+    
+    
+    <InputButton type="submit" value="Send" />
 
-  </Section>
-
+        </Form>
+        </>
     )
    
 

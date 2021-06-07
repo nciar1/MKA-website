@@ -8,7 +8,7 @@ const Navbar = () => {
             <Nav>
             <NavbarContainer>   
 
-               <NavLink to ="/home" activeStyle>
+               <NavLink to ="/" activeStyle>
                    Home
                </NavLink>
 

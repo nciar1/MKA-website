@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import{BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Home from './pages';
 import Footer from './components/Footer';
+import ErrorPage from './pages/ErrorPage'
+import Contact from './components/Contact'
 
 
 
@@ -15,8 +17,11 @@ function App() {
       
       <Switch>
       <Route path = "/" component={Home} exact />
+      <Route path = "/Contact" component = {Contact} />
+      
+      <Route component = {ErrorPage} />
 
-      </Switch>
+    </Switch>
    
       <Footer/>
 

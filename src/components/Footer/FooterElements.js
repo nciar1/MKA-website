@@ -2,7 +2,9 @@ import styled from 'styled-components';
 import {Link} from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
-    background-color:#862325;;
+    background-color:#862325;
+    display: flex;
+    position: flex-start;
 
 `
 
@@ -10,7 +12,7 @@ export const FooterWrap = styled.div`
     padding: 48px 24px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     max-width: 1100px;
     margin: 0 auto;
@@ -18,7 +20,6 @@ export const FooterWrap = styled.div`
 
 export const FooterLinksContainer = styled.div`
     display: flex;
-    justify-content: center;
 
     @media screen and (max-width: 820px)
  {
@@ -115,3 +116,22 @@ export const SocialIconLink = styled.a`
 `
 
 
+export const NavLink = styled(Link)`
+color: #F9ECE4;
+display: flex;
+align-items: center;
+text-decoration: none;
+padding: 0;
+height: 100%;
+cursor: pointer;
+
+&.active{
+    color: #c4abac;
+}
+`
+
+export const Navlogo = styled.div`
+height: auto;
+width: 100%;
+max-width: 80px;
+`

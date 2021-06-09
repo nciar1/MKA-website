@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import { Input, Form, Message, TextWrapper, ImageWrapper, ContactContainer, FormArea} from './contactElements';
 import {InputButton} from '../ButtonElements'
 
-import headshot from './../../images/Kloe-Headshot.png'
+import headshot from './../../images/kloe-portrait.png'
 
 
 const Contact = () => {

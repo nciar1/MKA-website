@@ -12,6 +12,8 @@ const Home = () => {
         <>
     <HeroSection/>
     <h1>Hello</h1>
+
+   
  
 
         </>

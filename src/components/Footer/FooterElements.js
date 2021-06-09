@@ -5,8 +5,9 @@ import {Link} from 'react-router-dom';
 export const FooterContainer = styled.footer`
     background-color:#862325;
     display: flex;
-    position: flex-start;
+    position: static;
     padding: 1em;
+    
 `
 
 export const FooterWrap = styled.div`
@@ -42,12 +43,7 @@ export const SocialMediaWrap = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 1em;
-    
-    
-    
-
-    
+    margin: 1em;    
 `
 
 export const SocialIconLink = styled.a`
@@ -67,10 +63,8 @@ text-decoration: none;
 padding: 0;
 height: 100%;
 cursor: pointer;
+cursor-color: pink;
 
-&.active{
-    color: #c4abac;
-}
 `
 
 export const NavLogo = styled.div`

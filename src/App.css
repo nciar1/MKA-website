@@ -27,10 +27,34 @@
   color: #F9ECE4;
 }
 
-.cream-background{
+.cream-bg{
   background-color: #F9ECE4;
 }
 
+
+.pale-pink-bg{
+  background-color: #FCD1D1;
+}
+
+.old-rose-bg{
+  background-color: #A44F51;
+}
+
+.falu-red-bg{
+  background-color: #862325;
+}
+
+.rosewood-bg{
+  background-color: #5b1517;
+}
+
+.dark-sienna-bg{
+  background-color: #2f0708;
+}
+
+.silver-pink-bg{
+  color: #c4abac;
+}
 
 @font-face {
   font-family: 'Beyond-Inifinity-Demo';
@@ -68,7 +92,7 @@
   .body{
     font-weight: 100;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .body-bold{

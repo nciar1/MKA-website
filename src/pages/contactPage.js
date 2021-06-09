@@ -9,7 +9,7 @@ const contactPage = () => {
     return (
 
         <>
-        <Section className = 'cream-background'>
+        <Section className = 'cream-bg'>
           
           
         <Contact />

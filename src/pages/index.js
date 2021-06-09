@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
+import { Info } from '../components/Info'
 import {VideoBanner,videoContainer} from '../components/SectionElements'
 import bannerVideo from "../video/MK Brand Banner.mp4"
 
@@ -11,6 +12,7 @@ const Home = () => {
         <>
     <HeroSection/>
     <h1>Hello</h1>
+ 
 
         </>
     )

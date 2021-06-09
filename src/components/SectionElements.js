@@ -5,6 +5,7 @@ export const Section = styled.div`
     padding: 2em 3em 4em 3em; 
     justify-content: center;
     align-items: center;
+    min-height: 80vh;
 `
 export const TextWrapper = styled.div`
 padding: 16px;

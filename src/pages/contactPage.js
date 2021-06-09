@@ -11,10 +11,7 @@ const contactPage = () => {
         <>
         <Section className = 'cream-background'>
           
-          <TextWrapper>
-        <h1>Contact Me</h1>
-        <bold>If you’d like to work together, feel free to send me a message. You can also find me on social media!</bold>
-        </TextWrapper>
+          
         <Contact />
 
 

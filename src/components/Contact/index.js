@@ -1,9 +1,9 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
-import { contactContainer, Input, Form, Message } from './contactElements';
-import style from './../../App.css'
-import { Section } from '../SectionElements';
+import { Input, Form, Message, TextWrapper, ImageWrapper, ContactContainer, FormArea} from './contactElements';
 import {InputButton} from '../ButtonElements'
+
+import headshot from './../../images/Kloe-Headshot.png'
 
 
 const Contact = () => {
@@ -22,28 +22,47 @@ const Contact = () => {
       }
 
     return (
+    <>
+    
+    <ContactContainer>
+
+    <TextWrapper>
+        <h1>Contact Me</h1>
+        <p>If you’d like to work together, feel free to contact me at marilartoon@gmail.com. You can also find me on social media!</p>
+    </TextWrapper>
+
+    <ImageWrapper>
+        <img src ={headshot} alt='headshot' width="200px"/>
+    </ImageWrapper>
+
+<FormArea>
+
+        <Form className="contact-form" onSubmit={sendEmail}>
         
+        <label>Name</label>
+        <Input type="text" name="name" />
+        
+        <label>Email</label>
+        <Input type="email" name="email" />
+    
+        <label>Subject</label>
+        <Input type="subject" name="subject" />
 
-<>
-    <Form className="contact-form" onSubmit={sendEmail}>
-    
-    <label>Name</label>
-    <Input type="text" name="name" />
-    
-    <label>Email</label>
-    <Input type="email" name="email" />
-   
-    <label>Subject</label>
-    <Input type="subject" name="subject" />
-
-    <label>Message</label>
-    <Message name="message" />
-    
-    
-    <InputButton type="submit" value="Send" />
+        <label>Message</label>
+        <Message name="message" />
+        
+        <InputButton type="submit" value="Send" />
 
         </Form>
-        </>
+
+</FormArea>
+
+
+
+
+
+        </ContactContainer>
+     </>
     )
    
 

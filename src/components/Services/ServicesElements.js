@@ -5,8 +5,9 @@ padding: 4em;
 margin: auto;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-align-items: center;
 text-align: center;
+align-items: top;
+grid-gap: 16px;
 
 `
 
@@ -31,7 +32,7 @@ width: 100px;
 
 export const ServiceLabel =styled.div`
 padding: 12px;
-font-size: 16px;
+font-size: clamp(10px, 2vw,14px);
 
 align-items: center;
 
@@ -55,6 +56,5 @@ border-radius: 100px;
 align-items: center;
 height: 100px;
 width: 100px;
-animation-play-state:paused;
 
 `

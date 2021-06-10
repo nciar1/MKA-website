@@ -2,10 +2,7 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
 padding: 1em 1em 5em 1em;
-display: grid;
-grid-gap: 16px;
-grid-template-areas: 'col1 col2';
-grid-template-columns: 1fr 1fr;
+
 align-items: center;
 justify-items: center;
 veritcal-align: center;
@@ -13,9 +10,23 @@ veritcal-align: center;
 `
 
 export const InfoWrapper = styled.div`
-display: flex;
-justify-content: center;
+
+padding: 64px;
+margin: auto;
+
+display: grid;
+grid-gap: 8px;
+grid-template-areas: ${({imgStart}) => (imgStart ? `'col1 col2'` : `'col2 col1'`)};
+grid-template-columns: 1fr 1fr;
+
+
+@media only screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-areas: ${({imgStart}) => (imgStart ? `'col2' 'col1'` : `'col1' 'col2'`)};
+}
 `
+
+
 
 export const Col1 = styled.div`
 grid-area: col1;

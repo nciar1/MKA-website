@@ -6,49 +6,45 @@ const Services = () => {
     return (
         <div className='cream-bg' >
         <ServiceHeader>My Services</ServiceHeader>
-        <ServiceContainer>
+            <ServiceContainer>
+                
+                <ServiceWrapper>
+                    <ServiceIconWrapper>
+                        <lord-icon
+                            src="https://cdn.lordicon.com/fgkmrslx.json"
+                            trigger="loop-on-hover"
+                            colors="primary:#2f0708,secondary:#862325"
+                            style={{width:'100%',height:'100%'}}
+                            alt='art-icon'>
+                        </lord-icon>
+                    </ServiceIconWrapper>
+                <ServiceLabel>Comissioned Art</ServiceLabel>
+                </ServiceWrapper>
 
-           <ServiceWrapper>
-               <ServiceIconWrapper>
-                   
+                <ServiceWrapper>
+                    <ServiceIconWrapper>
+                        <lord-icon
+                            src="https://cdn.lordicon.com/wloilxuq.json"
+                            trigger="loop-on-hover"
+                            colors="primary:#2f0708,secondary:#862325"
+                            style={{width:'100%',height:'100%'}}>
+                        </lord-icon>
+                    </ServiceIconWrapper>
+                <ServiceLabel>Logo & Brand Design</ServiceLabel>
+                </ServiceWrapper>
 
-<lord-icon
-    src="https://cdn.lordicon.com/fgkmrslx.json"
-    trigger="loop-on-hover"
-    colors="primary:#2f0708,secondary:#862325"
-    style={{width:'100%',height:'100%'}}>
-</lord-icon>
-                </ServiceIconWrapper>
-           <ServiceLabel>Comissioned Art</ServiceLabel>
-           </ServiceWrapper>
-
-           <ServiceWrapper>
-               <ServiceIconWrapper>
-<lord-icon
-    src="https://cdn.lordicon.com/wloilxuq.json"
-    trigger="loop-on-hover"
-    colors="primary:#2f0708,secondary:#862325"
-    style={{width:'100%',height:'100%'}}></lord-icon>
-
-               </ServiceIconWrapper>
-           <ServiceLabel>Logo & Brand Design</ServiceLabel>
-           </ServiceWrapper>
-
-           <ServiceWrapper>
-               <ServiceIconWrapper>
-
-<lord-icon
-    src="https://cdn.lordicon.com/tdxypxgp.json"
-    trigger="loop-on-hover"
-    colors="primary:#2f0708,secondary:#862325"
-    style={{width:'100%',height:'100%'}}></lord-icon>
-               </ServiceIconWrapper>
-           <ServiceLabel>Video Editing</ServiceLabel>
-           </ServiceWrapper>
-          
-
-  
-       
+                <ServiceWrapper>
+                    <ServiceIconWrapper>
+                        <lord-icon
+                            src="https://cdn.lordicon.com/tdxypxgp.json"
+                            trigger="loop-on-hover"
+                            colors="primary:#2f0708,secondary:#862325"
+                            style={{width:'100%',height:'100%'}}>
+                        </lord-icon>
+                    </ServiceIconWrapper>
+                <ServiceLabel>Video Editing</ServiceLabel>
+                </ServiceWrapper>
+                
         </ServiceContainer>
         </div>
     )

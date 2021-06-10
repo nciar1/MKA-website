@@ -9,6 +9,7 @@ export const AboutMe = {
     color: 'pale-pink-bg',
     img: require('./../../images/Kloe-Headshot.png').default,
     alt: 'headshot',
+    imgStart: false,
 
 }
 
@@ -22,6 +23,7 @@ export const MyShop = {
      alt: 'shop',
      link: '/Shop',
      page: 'Shop',
+     imgStart: false,
 
  }
  

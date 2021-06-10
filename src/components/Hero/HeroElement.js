@@ -9,24 +9,21 @@ export const SectionH = styled.div`
     flex-drection: column;
     text-align:center;
     margin: auto;
-
-  
 `
 
 export const BusinessName = styled.div`
 font-weight: 1,600;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 64px;
+font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+font-size: clamp(3rem, 2vw,5rem);
 justify-content: center;
 align-items: center;
-
 
 `
 
 export const BusinessDesc = styled.div`
 font-weight: 1,600;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 32px;
+    font-size: clamp(2rem, 2vw,3rem);
 justify-content: center;
 align-items: center;
 

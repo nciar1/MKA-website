@@ -20,7 +20,9 @@ const Home = () => {
     <Info {...MyShop}/>
 
     <Info {...ContactMe}/>
- 
+
+
+
 
         </>
     )

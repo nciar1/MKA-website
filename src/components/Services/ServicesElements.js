@@ -48,3 +48,13 @@ font-size: 64px;
 
 
 `
+
+export const ServiceIcon = styled.img`
+max-width:100px;
+border-radius: 100px;
+align-items: center;
+height: 100px;
+width: 100px;
+animation-play-state:paused;
+
+`

@@ -6,6 +6,7 @@ import {Button} from '../components/ButtonElements'
 
 const ErrorPage = () => {
     return (
+        <>
         <Section className ='cream-background' align-items='center'>
 
             <h1>404 Error</h1>
@@ -15,6 +16,11 @@ const ErrorPage = () => {
                 Home
             </Button>
         </Section>
+
+    
+
+
+</>
     )
 }
 

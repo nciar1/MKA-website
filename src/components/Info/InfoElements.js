@@ -7,10 +7,11 @@ align-items: center;
 justify-items: center;
 veritcal-align: center;
 
+
 `
 
 export const InfoWrapper = styled.div`
-
+positionL center;
 padding: 64px;
 margin: auto;
 

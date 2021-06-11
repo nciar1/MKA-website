@@ -22,15 +22,14 @@ export const Button= styled(Link)`
 display: block;
 text-decoration: none;
 background-color: #A44F51;
-width: 50px;
-padding: 0.5em;
+width: 100%;
+padding: 1em;
 font-size: 14px;
 font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-border-style: solid;
-border-color: #A44F51;
-font-color: 'white';
+color: white;
+
 
 &:hover{
-    background-color: white;
+    background-color: #2f0708;
 }
 `

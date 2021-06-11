@@ -23,7 +23,8 @@ export const MyShop = {
      alt: 'shop',
      link: '/Shop',
      page: 'Shop',
-     imgStart: false,
+     imgStart: true,
+
 
  }
  
@@ -39,3 +40,16 @@ export const MyShop = {
    
 
  }
+ export const ErrorMessage = {
+  
+    header:'404 Error',
+        subtitle:'Sorry!',
+       body: 'Looks like this page does not exist. ',
+        color: 'transparent',
+        img: require('./../../images/error.gif').default,
+        alt: 'error',
+        link: '/',
+        page: 'Return Home',
+        imgStart: true,
+   
+    }

@@ -15,9 +15,9 @@ export const Info = ({header, subtitle, body,color,img,alt, page, link},imgStart
                 <h1>{header}</h1>
                 <subtitle>{subtitle}</subtitle>
                 <Body>{body}</Body>
-                <Button to ={link}>
-                {page}
-                </Button>
+
+                
+                <Button to ={link}>{page}</Button>
               </Col1>
               
               <Col2>

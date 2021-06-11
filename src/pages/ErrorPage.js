@@ -4,17 +4,16 @@ import '../App.css'
 import { Section } from '../components/SectionElements'
 import {Button} from '../components/ButtonElements'
 
+import { Info } from '../components/Info'
+import {ErrorMessage} from '../components/Info/Data'
+
+
 const ErrorPage = () => {
     return (
         <>
-        <Section className ='cream-background' align-items='center'>
+        <Section className ='cream-bg' align-items='center'>
 
-            <h1>404 Error</h1>
-            <bold>Sorry, looks like this page can't be found!</bold>
-
-            <Button to ='/'>
-                Home
-            </Button>
+           <Info {...ErrorMessage} />
         </Section>
 
     

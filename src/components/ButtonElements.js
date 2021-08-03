@@ -25,7 +25,7 @@ background-color: #A44F51;
 width: 100%;
 padding: 1em;
 font-size: 14px;
-font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+font-family: Montserrat, sans-serif;
 color: white;
 
 

@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import Video from '../../video/MK Brand Banner.mp4';
 import {HeroContainer,HeroBg,VideoBg, HeroContent, HeroH1, HeroP,HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
 
 
@@ -15,7 +14,7 @@ const onHover = () => {
     return (
         <HeroContainer id ="about">
             <HeroBg>
-                <VideoBg src = {Video} type = 'video/mp4' autoPlay loop muted/>
+                Hello
             </HeroBg >
        
             

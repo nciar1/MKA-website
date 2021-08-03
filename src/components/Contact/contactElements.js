@@ -55,7 +55,7 @@ background-color: white;
 border-width: 4px;
 border-style: solid;
 border-color: #c4abac;
-font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+font-family: Montserrat, Helvetica, Arial, sans-serif;
 padding: 0.5em;
 font-size: 14px;
 `

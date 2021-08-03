@@ -45,8 +45,9 @@ grid-area: col2;
 
 export const Body = styled.div`
 font-weight: 100;
-font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-font-size: 14px;
+font-family: montserrat, sans-serif;
+font-weight: 100;
+
 padding-top: 12px;
 
 `

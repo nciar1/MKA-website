@@ -4,7 +4,7 @@ import {ServiceContainer, ServiceIconWrapper, ServiceWrapper,ServiceLabel, Servi
 
 const Services = () => {
     return (
-        <div className='cream-bg' >
+        <div className='falu-red-bg' >
         <ServiceHeader>My Services</ServiceHeader>
             <ServiceContainer>
                 

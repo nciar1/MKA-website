@@ -18,7 +18,7 @@ export const MyShop = {
  header:'My Shop',
      subtitle:'Suppport my work',
     body: 'Prints, stickers, and digital downloads made by MARILARTOON can be purchased at our shop. Personal commissioned work can also be purchased by request.',
-     color: 'white-bg',
+     color: 'cream-bg',
      img: require('./../../images/Kloe-sticker.png').default,
      alt: 'shop',
      link: '/Shop',

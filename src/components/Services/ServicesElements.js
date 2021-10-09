@@ -44,7 +44,7 @@ text-align: center;
 align-items: center;
 padding-top: 1em;
 font-family: Beyond-Inifinity-Demo;
-font-weight: 100;
+font-weight: 500;
 font-size: 64px;
 
 

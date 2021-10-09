@@ -5,7 +5,7 @@ export const AboutMe = {
   
    header:'About Me',
     subtitle:'Hello, I’m Marielle!',
-    body:'I’m a digital artist and content creator based in Florida. erat libero, luctus ut purus non, aliquet fringilla risus. Aenean convallis, nibh at sollicitudin auctor, erat arcu aliquam quam, sed fermentum libero erat eu mauris. Donec rhoncus sit amet mauris in vehicula. Duis odio nunc, commodo eu tempor vitae, lacinia vel lacus. Integer tincidunt interdum magna, nec dignissim lectus elementum non. Proin in placerat augue. Ut ullamcorper a tellus ac laoreet. Nunc sollicitudin tellus eget risus egestas, in aliquet dolor elementum.',
+    body:'I’m an aspiring artist and content creator based in Florida. I specialize in digital illustrations and video editing. When I’m not creating content, you can find me baking in my kitchen or dancing to my favorite k-pop songs. Check out some of my work below!',
     color: 'pale-pink-bg',
     img: require('./../../images/Kloe-Headshot.png').default,
     alt: 'headshot',

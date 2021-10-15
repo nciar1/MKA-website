@@ -33,7 +33,7 @@ export const SocialLogo = styled(Link)`
 `
 
 export const WebsiteRights = styled.small`
-    color: #FCD1D1;
+    color: #F9ECE4;
     padding: 1em;
     font-size: 16px;
 

@@ -5,7 +5,7 @@ import {ServiceContainer, ServiceIconWrapper, ServiceWrapper,ServiceLabel, Servi
 const Services = () => {
     return (
         <div className='falu-red-bg' >
-        <ServiceHeader>My Services</ServiceHeader>
+        <ServiceHeader className='cream'>My Services</ServiceHeader>
             <ServiceContainer>
                 
                 <ServiceWrapper>
@@ -18,7 +18,7 @@ const Services = () => {
                             alt='art-icon'>
                         </lord-icon>
                     </ServiceIconWrapper>
-                <ServiceLabel>Comissioned Art</ServiceLabel>
+                <ServiceLabel className='cream'>Comissioned Art</ServiceLabel>
                 </ServiceWrapper>
 
                 <ServiceWrapper>
@@ -30,7 +30,7 @@ const Services = () => {
                             style={{width:'100%',height:'100%'}}>
                         </lord-icon>
                     </ServiceIconWrapper>
-                <ServiceLabel>Logo & Brand Design</ServiceLabel>
+                <ServiceLabel className='cream'>Logo & Brand Design</ServiceLabel>
                 </ServiceWrapper>
 
                 <ServiceWrapper>
@@ -42,7 +42,7 @@ const Services = () => {
                             style={{width:'100%',height:'100%'}}>
                         </lord-icon>
                     </ServiceIconWrapper>
-                <ServiceLabel>Video Editing</ServiceLabel>
+                <ServiceLabel className='cream'>Video Editing</ServiceLabel>
                 </ServiceWrapper>
                 
         </ServiceContainer>

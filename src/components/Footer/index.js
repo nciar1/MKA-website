@@ -33,7 +33,7 @@ const Footer = () => {
                 
                 <FooterWrap>
                     <WebsiteRights> {new Date().getFullYear()} All rights reserved. – MARILARTOON </WebsiteRights>
-                    <p className='pale-pink'>Design and Coded by Nicole Ciar</p>
+                    <p className='cream'>Design and Coded by Nicole Ciar</p>
                 </FooterWrap>
 
 

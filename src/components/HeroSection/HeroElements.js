@@ -11,6 +11,7 @@ export const HeroContainer = styled.div`
     width: auto;
     position: relative;
     z-index: 1;
+   
 
     :before {
         content: '';
@@ -30,8 +31,8 @@ export const HeroBg = styled.div`
     right: 0;
     bottom: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
 
 
@@ -45,12 +46,6 @@ width: 100%;
 height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
-
-
-
-
-
-
 
 `
 ;
@@ -73,7 +68,7 @@ border-style: solid;
 export const BusinessName = styled.h1`
 font-weight: 900;
 font-family: "Open Sans", Helvetica, Arial, sans-serif;
-font-size: clamp(3rem, 2vw,5rem);
+font-size: clamp(2rem, 5vw,5rem);
 justify-content: center;
 align-items: center;
 text-align: center;
@@ -83,7 +78,7 @@ text-align: center;
 export const BusinessDesc = styled.p`
 font-weight: 1,600;
 font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-font-size: clamp(2rem, 2vw,3rem);
+font-size: clamp(1.5rem, 2vw,3rem);
 justify-content: center;
 align-items: center;
 text-align:center;
@@ -91,7 +86,7 @@ text-align:center;
 
 export const Name = styled.h2`
 font-weight: 1,600;
-font-size: clamp(2rem, 2vw,3rem);
+font-size: clamp(1rem, 2vw,3rem);
 padding-top: 8px;
 justify-content: center;
 align-items: center;

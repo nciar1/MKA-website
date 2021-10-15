@@ -11,8 +11,8 @@ veritcal-align: center;
 `
 
 export const InfoWrapper = styled.div`
-positionL center;
-padding: 64px;
+position: center;
+padding: 5em;
 margin: auto;
 
 display: grid;
@@ -47,7 +47,6 @@ export const Body = styled.div`
 font-weight: 100;
 font-family: montserrat, sans-serif;
 font-weight: 100;
-
 padding-top: 12px;
 
 `

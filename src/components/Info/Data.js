@@ -10,6 +10,7 @@ export const AboutMe = {
     img: require('./../../images/Kloe-Headshot.png').default,
     alt: 'headshot',
     imgStart: false,
+    
 
 }
 

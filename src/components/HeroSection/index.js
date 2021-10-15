@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import {HeroContainer,HeroBg,VideoBg, HeroContent, HeroH1, HeroP,HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
-
+import {HeroContainer,HeroBg,VideoBg, BusinessBanner,BusinessDesc , BusinessName, Name} from './HeroElements';
+import Video from '../../videos/video3.mp4'
 
 
 const HeroSection = () => {
@@ -13,11 +13,15 @@ const onHover = () => {
 
     return (
         <HeroContainer id ="about">
+
             <HeroBg>
-                Hello
+             <VideoBg autoPlay loop muted src = {Video} type='video/mp4'/>
             </HeroBg >
-       
-            
+<BusinessBanner className='cream-bg'>
+    <BusinessName className='falu-red'>MARILARTOON</BusinessName>
+    <BusinessDesc className='old-rose'>Creative Business</BusinessDesc>
+  <Name className='dark-sienna'>Marielle Kloe Alcayaga</Name>
+</BusinessBanner>
         </HeroContainer>
     );
 };

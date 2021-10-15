@@ -4,6 +4,7 @@ import { Info } from '../components/Info'
 import {AboutMe,ContactMe,MyShop} from '../components/Info/Data'
 import {VideoBanner,videoContainer} from '../components/SectionElements'
 import Hero from '../components/Hero'
+
 import Services from '../components/Services'
 
 
@@ -12,7 +13,7 @@ const Home = () => {
     
     return (
         <>
-    <Hero/>
+    <HeroSection/>
     <Info {...AboutMe}/>
 
     <Services />

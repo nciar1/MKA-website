@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {HeroContainer,HeroBg,VideoBg, BusinessBanner,BusinessDesc , BusinessName, Name} from './HeroElements';
-import Video from '../../videos/video2.ogv'
-import Video2 from '../../videos/video2.ogv'
+import Video from '../../videos/video3.mp4'
 
 
 
@@ -18,7 +17,7 @@ const onHover = () => {
 
             <HeroBg>
 
-            <VideoBg autoPlay loop muted  playsinline src = {Video} type='video/ogv'/>
+            <VideoBg autoPlay loop muted  playsinline src = {Video} type='video/mp4'/>
 
             </HeroBg >
 <BusinessBanner className='cream-bg'>

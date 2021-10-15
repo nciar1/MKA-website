@@ -21,7 +21,8 @@ export const HeroContainer = styled.div`
         right: 0;
         bottom: 0;
         z-index: 2;
-        background:rgba(192, 123, 125, 0.5);
+        background: rgba(251, 209, 211, 0.6);
+
 }
 `;
 

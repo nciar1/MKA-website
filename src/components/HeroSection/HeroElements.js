@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 80px;
+    padding: 0;
     height: 100vh;
     width: auto;
     position: relative;
@@ -30,8 +30,8 @@ export const HeroBg = styled.div`
     right: 0;
     bottom: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
 
 
@@ -42,9 +42,12 @@ export const HeroBg = styled.div`
 
 export const VideoBg = styled.video`
 width: 100%;
-height: 100vh;
+height: 100%;
 -o-object-fit: cover;
 object-fit: cover;
+
+
+
 
 
 
@@ -54,14 +57,16 @@ object-fit: cover;
 
 export const BusinessBanner = styled.div`
 z-index: 3;
-max-width: 1200px;
 position: absolute;
-padding: clamp(3rem, 2vw,6rem) clamp(6rem, 2vw,12rem);
+width: 50%;
+padding: clamp(3em, 2vw,6em) clamp(6em, 2vw,12em);
 flex-direction: column;
 align-items: center;
 justify-content: center;
 border-radius: 4px;
-
+border-width: 5px;
+border-color: #5b1517;
+border-style: solid;
 `
 
 

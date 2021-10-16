@@ -4,7 +4,7 @@ import '../App.css'
 
 export const InputButton = styled.input`
 background-color: #A44F51;
-width: 100%;
+width: auto;
 padding: 0.5em;
 font-size: 14px;
 font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
@@ -22,11 +22,14 @@ export const Button= styled(Link)`
 display: block;
 text-decoration: none;
 background-color: #A44F51;
-width: 100%;
+min-width: 100px;
+width: fit-content;
 padding: 1em;
 font-size: 14px;
 font-family: Montserrat, sans-serif;
 color: white;
+text-align: center;
+margin: 2em auto;
 
 
 &:hover{

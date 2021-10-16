@@ -9,12 +9,14 @@ veritcal-align: center;
 justify-content: center;
 align-content: center;
 
+
 `
 
 export const InfoWrapper = styled.div`
 position: center;
-veritcal-align: center;
 text-align: center;
+align-items: center;
+
 
 padding: 5em;
 margin: 2em;
@@ -38,16 +40,16 @@ justify-content: center;
 
 export const Col1 = styled.div`
 grid-area: col1;
-padding: 1em;
+padding: 5%;
 border-radius:4px;
-
-
 align-items: center;
 justify-items: center;
+`
 
 
-
-
+export const ColColor = styled.div`
+height: 100%;
+margins: auto;
 `
 
 export const Col2 = styled.div`
@@ -88,6 +90,7 @@ width: 1fr;
 
 export const Img = styled.img`
 max-width: 100%;
-max-height: 70vh;
+max-height: 50vh;
 align-items: center;
+height: auto;
 `

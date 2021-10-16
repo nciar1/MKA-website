@@ -2,7 +2,7 @@ import React from 'react'
 import '../../App.css'
 import PortfolioImg from '../../images/ExampleArt.png'
 import { ImgContainer, PortfolioContainer, Img } from './PortfolioElements'
-
+import { Button } from '../ButtonElements'
 
 export const Portfolio = () => {
    
@@ -13,6 +13,7 @@ export const Portfolio = () => {
             <ImgContainer>
             <Img src={PortfolioImg} alt="Portfolio" />
             </ImgContainer>
+            <Button to ='/Portfolio'>View Portfolio</Button>
            
         </PortfolioContainer>
     )

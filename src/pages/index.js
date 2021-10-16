@@ -4,6 +4,9 @@ import { Info } from '../components/Info'
 import {AboutMe,ContactMe,MyShop} from '../components/Info/Data'
 import {VideoBanner,videoContainer} from '../components/SectionElements'
 
+import Portfolio from '../components/Portfolio'
+
+
 import Services from '../components/Services'
 
 
@@ -14,6 +17,8 @@ const Home = () => {
         <>
     <HeroSection/>
     <Info {...AboutMe}/>
+
+    <Portfolio/>
 
     <Services />
     <Info {...MyShop}/>

@@ -68,12 +68,15 @@
     font-family: Beyond-Inifinity-Demo;
     font-weight: 100;
     font-size: clamp(3em, 2vw,6em);
+    text-align: center;
   }
 
   h2 {
     font-family: Beyond-Inifinity-Demo;
     font-weight: 100;
     font-size: clamp(2em, 2vw,5em);
+    text-align: center;
+
 
   }
 
@@ -87,18 +90,24 @@
     font-weight: 800;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     font-size: clamp(1em, 2vw,3em);
+    text-align: center;
+
   }
 
   .body{
     font-weight: 100;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 12px;
+    text-align: center;
+
   }
 
   .body-bold{
     font-weight: 800;
     font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 16px;
+    text-align: center;
+
   }
 
 

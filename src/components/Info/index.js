@@ -3,18 +3,18 @@ import '../../App.css'
 import {Button} from '../ButtonElements'
 
 import React from 'react'
-import { Col1,Col2, InfoContainer,Body, InfoWrapper, Img } from './InfoElements'
+import { Col1,Col2, InfoContainer,Body, InfoWrapper, Img, Header, Subtitle } from './InfoElements'
 
-export const Info = ({header, subtitle, body,color,img,alt, page, link},imgStart) => {
+export const Info = ({header, subtitle, body,sectColor,img,alt, page, link,bgColor, lightText},imgStart) => {
     return (
         <>
-          <InfoContainer className={color}>
+          <InfoContainer className={sectColor}  >
             <InfoWrapper  imgStart= {imgStart} >
 
-              <Col1> 
-                <h1>{header}</h1>
-                <subtitle>{subtitle}</subtitle>
-                <Body>{body}</Body>
+              <Col1 className={bgColor}>
+                <Header lightText={lightText}>{header}</Header>
+                <Subtitle lightText={lightText}>{subtitle}</Subtitle>
+                <Body lightText={lightText}>{body}</Body>
 
                 
                 <Button to ={link}>{page}</Button>

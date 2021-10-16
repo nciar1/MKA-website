@@ -46,6 +46,7 @@ padding-top: 1em;
 font-family: Beyond-Inifinity-Demo;
 font-weight: 500;
 font-size: 64px;
+background-color:#862325;
 
 
 `

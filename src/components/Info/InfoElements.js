@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
 padding: 1em 1em 1em 1em;
-
+height: auto;
+width: 100%;
 align-items: center;
 justify-items: center;
 veritcal-align: center;
@@ -22,7 +23,7 @@ padding: 5em;
 margin: 2em;
 
 display: grid;
-grid-gap: 8px;
+grid-gap: 0;
 grid-template-areas: ${({imgStart}) => (imgStart ? `'col1 col2'` : `'col2 col1'`)};
 grid-template-columns: 1fr 1fr;
 

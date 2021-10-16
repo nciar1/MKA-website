@@ -59,7 +59,7 @@ padding: clamp(3em, 2vw,6em) clamp(6em, 2vw,12em);
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border-radius: 4px;
+//border-radius: 4px;
 border-width: 5px;
 border-color: #5b1517;
 border-style: solid;

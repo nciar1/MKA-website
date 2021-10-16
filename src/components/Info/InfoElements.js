@@ -41,15 +41,17 @@ justify-content: center;
 export const Col1 = styled.div`
 grid-area: col1;
 padding: 5%;
-border-radius:4px;
+//border-radius:4px;
 align-items: center;
 justify-items: center;
+//box-shadow: 20px -20px 0px #FBD1D3;
 `
 
 
 export const ColColor = styled.div`
 height: 100%;
 margins: auto;
+
 `
 
 export const Col2 = styled.div`

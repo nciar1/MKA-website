@@ -33,16 +33,14 @@ grid-template-columns: auto 1fr;
 
 export const TextWrapper = styled.div`
 grid-area: textwrapper;
-
-
-
+text-align: center;
+padding: 1em;
 `
 
 
 
 export const ImageWrapper = styled.div`
 grid-area: image;
-
 `
 
 
@@ -62,6 +60,8 @@ font-size: 14px;
 
 export const Message = styled.textarea`
 width: 100%;
+max-height: 900px;
+height: auto;
 font-color: 'silver-pink';
 outline: none;
 background-color: white;
@@ -73,3 +73,9 @@ padding: 0.5em;
 font-size: 14px;
 `
 
+export const Label = styled.label`
+font-weight: 500;
+font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+font-size: 1rem;
+text-align: left;
+`

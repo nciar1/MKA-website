@@ -39,10 +39,12 @@ export const MyShop = {
  export const ContactMe= {
 
     header:'Contact Me',
-     subtitle:'If you’d like to work together or would like to make a request, send me a message. You can also find me on social media!',
-     sectColor: 'pale-pink-bg',
+    subtitle:'If you’d like to work together or would like to make a request, send me a message. You can also find me on social media!',
+    sectColor: 'pale-pink-bg',
     bgColor: 'pale-pink-bg',
     lightText: false,
+    img: require('./../../images/MKIllustration.png').default,
+    alt: 'self portrait',
      link: '/Contact',
      page: 'Message Me',
    

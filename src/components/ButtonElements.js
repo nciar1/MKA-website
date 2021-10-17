@@ -3,17 +3,21 @@ import {Link} from 'react-router-dom'
 import '../App.css'
 
 export const InputButton = styled.input`
+display: block;
+text-decoration: none;
 background-color: #A44F51;
-width: auto;
-padding: 0.5em;
+min-width: 100px;
+width: fit-content;
+padding: 1em;
 font-size: 14px;
-font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-border-style: solid;
-border-color: #A44F51;
-font-color: 'white';
+font-family: Montserrat, sans-serif;
+color: white;
+text-align: center;
+margin: 2em auto;
 
+border: none;
 &:hover{
-    background-color: white;
+    background-color: #2f0708;
 }
 `
 

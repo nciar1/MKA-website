@@ -1,9 +1,8 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
-import { Input, Form, Message, TextWrapper, ImageWrapper, ContactContainer, FormArea} from './contactElements';
+import { Input, Form, Message, TextWrapper, ImageWrapper, ContactContainer, FormArea, Label} from './contactElements';
 import {InputButton} from '../ButtonElements'
 
-import headshot from './../../images/kloe-portrait.png'
 
 
 const Contact = () => {
@@ -31,27 +30,26 @@ const Contact = () => {
         <p>If you’d like to work together, feel free to contact me at marilartoon@gmail.com. You can also find me on social media!</p>
     </TextWrapper>
 
-    <ImageWrapper>
-        <img src ={headshot} alt='headshot' width="200px"/>
-    </ImageWrapper>
+
+
 
 <FormArea>
 
         <Form className="contact-form" onSubmit={sendEmail}>
         
-        <label>Name</label>
-        <Input type="text" name="name" />
+        <Label >Name</Label>
+        <Input type="text" name="name" required/>
         
-        <label>Email</label>
-        <Input type="email" name="email" />
+        <Label >Email</Label>
+        <Input type="email" name="email" required/>
     
-        <label>Subject</label>
-        <Input type="subject" name="subject" />
+        <Label>Subject</Label>
+        <Input type="subject" name="subject" required/>
 
-        <label>Message</label>
-        <Message name="message" />
+        <Label>Message</Label>
+        <Message name="message" required/>
         
-        <InputButton type="submit" value="Send" />
+        <InputButton type="submit" value="Send" required/>
 
         </Form>
 

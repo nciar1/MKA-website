@@ -10,12 +10,7 @@ const contactPage = () => {
 
         <>
         <Section className = 'cream-bg'>
-          
-          
         <Contact />
-
-
-
         </Section>
         </>
     )

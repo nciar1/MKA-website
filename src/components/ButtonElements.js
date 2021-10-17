@@ -10,10 +10,10 @@ min-width: 100px;
 width: fit-content;
 padding: 1em;
 font-size: 14px;
-font-family: Montserrat, sans-serif;
+font-family: montserrat, sans-serif;
 color: white;
 text-align: center;
-margin: 2em auto;
+margin: 1em auto;
 
 border: none;
 &:hover{

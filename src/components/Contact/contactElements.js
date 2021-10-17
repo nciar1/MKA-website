@@ -7,25 +7,33 @@ display: grid;
 grid-gap: 8px;
 border-width: 10px;
 border-color: black;
-max-width: 560px;
+width: 100%;
 align-content: center;
 margin: auto;
 `
 
 export const FormArea = styled.div`
 grid-area: form;
+`
 
+export const ButtonArea = styled.div`
+grid-area: button;
+`
+
+export const SocialArea = styled.div`
+grid-area: social;
 `
 
 export const ContactContainer = styled.div`
 display: grid;
-justify-content: center;
+//justify-content: center;
 max-width: 560px;
 margin: auto;
 
 grid-template-areas: 
-"textwrapper image"
-"form form";
+"textwrapper textwrapper"
+"form form"
+"button social";
 
 grid-template-columns: auto 1fr;
 
@@ -46,7 +54,7 @@ grid-area: image;
 
 
 export const Input = styled.input`
-width: 100%;
+width: auto-fit;
 font-color: 'silver-pink';
 outline: none;
 background-color: white;
@@ -59,7 +67,7 @@ font-size: 14px;
 `
 
 export const Message = styled.textarea`
-width: 100%;
+width: auto-fit;
 max-height: 900px;
 height: auto;
 font-color: 'silver-pink';
@@ -78,4 +86,21 @@ font-weight: 500;
 font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 font-size: 1rem;
 text-align: left;
+`
+
+
+export const SocialMediaWrap = styled.div`
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 1em auto;
+     
+`
+
+export const SocialIconLink = styled.a`
+    color: #A44F51;
+    font-size: 2em;
+    padding: 0;
+
+
 `

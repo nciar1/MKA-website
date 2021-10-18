@@ -2,17 +2,18 @@ import React from 'react'
 import Contact from '../components/Contact'
 import '../App.css'
 import { Section,TextWrapper } from '../components/SectionElements'
+import Poster from '../images/bgBackup.png'
 
 
 
 const contactPage = () => {
     return (
 
-        <>
-        <Section className = 'cream-bg'>
+        <Section className='bg-image'>
+   
         <Contact />
+
         </Section>
-        </>
     )
 }
 

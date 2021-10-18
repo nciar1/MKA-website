@@ -26,7 +26,6 @@ grid-area: social;
 
 export const ContactContainer = styled.div`
 display: grid;
-//justify-content: center;
 max-width: 560px;
 margin: auto;
 
@@ -61,7 +60,7 @@ background-color: white;
 border-width: 4px;
 border-style: solid;
 border-color: #c4abac;
-font-family: Montserrat, Helvetica, Arial, sans-serif;
+font-family: 'Montserrat', sans-serif;
 padding: 0.5em;
 font-size: 14px;
 `
@@ -76,16 +75,17 @@ background-color: white;
 border-width: 4px;
 border-style: solid;
 border-color: #c4abac;
-font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+font-family: 'Montserrat', sans-serif;
 padding: 0.5em;
 font-size: 14px;
 `
 
 export const Label = styled.label`
 font-weight: 500;
-font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-size: 1rem;
 text-align: left;
+color:#2f0708;
 `
 
 
@@ -102,5 +102,16 @@ export const SocialIconLink = styled.a`
     font-size: 2em;
     padding: 0;
 
+    &:hover{
+        color: #2f0708;
+    }
 
+
+`
+export const BgImage = styled.div`
+    padding: 1em;
+    background:url("../images/bgBackup.png");
+    background-size: cover;
+    height: auto;
+    width: 100%;
 `

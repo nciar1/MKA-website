@@ -19,10 +19,14 @@ text-decoration: none;
 padding: 0;
 height: 100%;
 cursor: pointer;
+font-weight: 700;
 
-&.active{
-    color: #c4abac;
+&:hover{
+    color: #2f0708;
 }
+
+
+
 `
 
 

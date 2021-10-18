@@ -33,6 +33,7 @@ width: 100px;
 export const ServiceLabel =styled.div`
 padding: 12px;
 font-size: clamp(10px, 2vw,14px);
+font-weight: 700;
 
 align-items: center;
 

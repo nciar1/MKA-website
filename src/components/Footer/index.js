@@ -18,7 +18,7 @@ const Footer = () => {
     return (
         <div>
 
-            <IconContext.Provider value={{ color: "#FCD1D1", width: "5em"}}>
+            <IconContext.Provider value={{ width: "5em"}}>
 
             <FooterContainer>
             
@@ -33,7 +33,8 @@ const Footer = () => {
                 
                 <FooterWrap>
                     <WebsiteRights> {new Date().getFullYear()} All rights reserved. – MARILARTOON </WebsiteRights>
-                    <p className='cream'>Design and Coded by Nicole Ciar</p>
+                    <WebsiteRights>Design and Coded by Nicole Ciar</WebsiteRights>
+                 
                 </FooterWrap>
 
 

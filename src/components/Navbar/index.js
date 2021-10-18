@@ -3,16 +3,19 @@ import {Nav, NavLink, Bars, NavMenu, NavMenuLeft, NavMenuCenter, NavMenuRight, m
 import logo from './../../Kloe-Logo.png'
 
 const Navbar = () => {
+
+   
+
     return (
         <div>
             <Nav>
             <NavbarContainer>   
 
-               <NavLink to ="/" activeStyle>
+               <NavLink to ="/">
                    Home
                </NavLink>
 
-               <NavLink to ="/portfolio" activeStyle>
+               <NavLink to ="/portfolio">
                    Portfolio
                </NavLink>
                
@@ -22,11 +25,11 @@ const Navbar = () => {
                     </Navlogo>
                 </NavLink>
 
-               <NavLink to ="/shop" activeStyle>
+               <NavLink to ="/shop">
                    Shop
                </NavLink>
 
-               <NavLink to ="/contact" activeStyle>
+               <NavLink to ="/contact">
                    Contact
                </NavLink>
 

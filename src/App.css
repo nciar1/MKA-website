@@ -56,6 +56,15 @@
   color: #c4abac;
 }
 
+.bg-image{
+  background-image: url(./images/light-bg-image.png);
+  width: fit;
+  height: auto;
+  background-size: cover;
+  background-color:rgba(251, 209, 211, 0.75);
+}
+
+
 @font-face {
   font-family: 'Beyond-Inifinity-Demo';
   font-style: normal;
@@ -87,24 +96,24 @@
   }
 
   .subtitle{
-    font-weight: 800;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
     font-size: clamp(1em, 2vw,3em);
     text-align: center;
 
   }
 
   .body{
-    font-weight: 100;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-    font-size: 12px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(0.5em, 2vw,1em);
     text-align: center;
 
   }
 
   .body-bold{
     font-weight: 800;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-align: center;
 
@@ -115,14 +124,14 @@
 
   .small{
     font-weight: 100;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
   }
 
   
   * {
     font-weight: 800;
-    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif; 
+    font-family: 'Montserrat', sans-serif;    
     margin: 0;
     padding: 0;
   }

@@ -67,8 +67,8 @@ border-style: solid;
 
 
 export const BusinessName = styled.h1`
-font-weight: 900;
-font-family: "Open Sans", Helvetica, Arial, sans-serif;
+font-weight: 800;
+font-family: 'Montserrat', sans-serif;
 font-size: clamp(2rem, 5vw,5rem);
 justify-content: center;
 align-items: center;
@@ -77,8 +77,8 @@ text-align: center;
 `
 
 export const BusinessDesc = styled.p`
-font-weight: 1,600;
-font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+font-weight:700;
+font-family: 'Montserrat', sans-serif;
 font-size: clamp(1.5rem, 2vw,3rem);
 justify-content: center;
 align-items: center;
@@ -87,7 +87,7 @@ text-align:center;
 
 export const Name = styled.h2`
 font-weight: 1,600;
-font-size: clamp(1rem, 2vw,3rem);
+font-size: clamp(2rem, 2vw,3rem);
 padding-top: 8px;
 justify-content: center;
 align-items: center;

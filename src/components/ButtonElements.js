@@ -14,6 +14,8 @@ font-family: montserrat, sans-serif;
 color: white;
 text-align: center;
 margin: 1em auto;
+font-weight: 700;
+
 
 border: none;
 &:hover{
@@ -23,6 +25,8 @@ border: none;
 
 
 export const Button= styled(Link)`
+font-weight: 700;
+
 display: block;
 text-decoration: none;
 background-color: #A44F51;

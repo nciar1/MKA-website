@@ -63,11 +63,12 @@ grid-area: col2;
 `
 
 export const Body = styled.div`
-font-weight: 100;
+font-weight: 300;
 font-family: montserrat, sans-serif;
-font-weight: 100;
 padding-top: 12px;
 color: ${({lightText}) => (lightText ? '#F9ECE4' : '#2f0708')};
+font-size: clamp(.5em, 2vw,1em);
+
 `
 
 
@@ -81,7 +82,7 @@ color: ${({lightText}) => (lightText ? '#F9ECE4' : '#2f0708')};
 `
 
 export const Subtitle = styled.div`
-font-weight: 900;
+font-weight: 700;
 font-family: montserrat, sans-serif;
 padding-top: 12px;
 color: ${({lightText}) => (lightText ? '#F9ECE4' : '#2f0708')};

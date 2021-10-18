@@ -1,11 +1,12 @@
 import React from 'react'
 import emailjs from 'emailjs-com';
-import { Input, Form, Message, TextWrapper, ImageWrapper, ContactContainer, FormArea, Label, SocialArea,SocialIconLink, SocialMediaWrap, ButtonArea} from './contactElements';
+import { Input, Form, Message, TextWrapper, ImageWrapper, ContactContainer, FormArea, Label, SocialArea,SocialIconLink, SocialMediaWrap, ButtonArea, BgImage} from './contactElements';
 import {InputButton} from '../ButtonElements'
 
 import { FaInstagram} from 'react-icons/fa';
 import { SiTiktok} from 'react-icons/si';
 import { AiOutlineYoutube} from 'react-icons/ai';
+import Poster from '../../images/bgBackup.png'
 
 
 
@@ -30,9 +31,12 @@ const Contact = () => {
     <ContactContainer>
 
     <TextWrapper>
-        <h1>Contact Me</h1>
-        <p>If you’d like to work together, feel free to contact me at marilartoon@gmail.com. You can also find me on social media!</p>
+        <h1 className='dark-sienna'>Contact Me</h1>
+        <body className ='dark-sienna'>If you’d like to work together, feel free to contact me at marilartoon@gmail.com. You can also find me on social media!</body>
     </TextWrapper>
+    <BgImage>
+
+</BgImage>
 
 
 

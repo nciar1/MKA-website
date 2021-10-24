@@ -6,28 +6,20 @@ import Footer from './components/Footer';
 import ErrorPage from './pages/ErrorPage'
 import ContactPage from './pages/contactPage'
 
-
-
-
 function App() {
   return (
     <Router>
-      <Navbar/>
-      
+      <Navbar/> 
       
       <Switch>
       <Route path = "/" component={Home} exact />
       <Route path = "/Contact" component = {ContactPage} />
-      
       <Route component = {ErrorPage} />
-
     </Switch>
-   
-      <Footer/>
-
-    </Router>
-  );
+    
+    <Footer/>
+ </Router>
+);
 }
-
 export default App;
 

@@ -37,48 +37,42 @@ export const WebsiteRights = styled.small`
     padding: 0;
     font-size: clamp(0.5em, 2vw,1em); 
     font-weight: 500;
-
 `
 
 export const SocialMediaWrap = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 1em;   
-    
+    margin: 1em;
 `
 
 export const SocialIconLink = styled.a`
     color: #FCD1D1;
     font-size: 2em;
     padding: .1em;
+    
+    &:hover{
+        color: #2f0708;
+    }
+`
+
+export const NavLink = styled(Link)`
+    color: #F9ECE4;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0;
+    height: 100%;
+    cursor: pointer;
+    cursor-color: pink;
 
     &:hover{
         color: #2f0708;
     }
-
-
-`
-
-
-export const NavLink = styled(Link)`
-color: #F9ECE4;
-display: flex;
-align-items: center;
-text-decoration: none;
-padding: 0;
-height: 100%;
-cursor: pointer;
-cursor-color: pink;
-
-&:hover{
-    color: #2f0708;
-}
-
 `
 
 export const NavLogo = styled.div`
-height: auto;
-width: 100%;
-max-width: 80px;
+    height: auto;
+    width: 100%;
+    max-width: 80px;
 `

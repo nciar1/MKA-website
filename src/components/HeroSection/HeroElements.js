@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import {MdKeyboardArrowRight,MdArrowForward} from 'react-icons/md';
-
 
 export const HeroContainer = styled.div`
     display: flex;
@@ -12,7 +10,6 @@ export const HeroContainer = styled.div`
     position: relative;
     z-index: 1;
    
-
     :before {
         content: '';
         position: absolute;
@@ -22,7 +19,6 @@ export const HeroContainer = styled.div`
         bottom: 0;
         z-index: 2;
         background: rgba(251, 209, 211, 0.5);
-
 }
 `;
 
@@ -35,61 +31,52 @@ export const HeroBg = styled.div`
     width: 100%;
     height: 100%;
     overflow: hidden;
-
-
 `;
 
-
-
-
 export const VideoBg = styled.video`
-width: 100%;
-height: 100%;
--o-object-fit: cover;
-object-fit: cover;
-
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
 `
-;
 
 export const BusinessBanner = styled.div`
-z-index: 3;
-position: absolute;
-width: 50%;
-padding: clamp(3em, 2vw,6em) clamp(6em, 2vw,12em);
-flex-direction: column;
-align-items: center;
-justify-content: center;
-//border-radius: 4px;
-border-width: 5px;
-border-color: #5b1517;
-border-style: solid;
+    z-index: 3;
+    position: absolute;
+    width: 50%;
+    padding: clamp(3em, 2vw,6em) clamp(6em, 2vw,12em);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    //border-radius: 4px;
+    border-width: 5px;
+    border-color: #5b1517;
+    border-style: solid;
 `
 
-
 export const BusinessName = styled.h1`
-font-weight: 800;
-font-family: 'Montserrat', sans-serif;
-font-size: clamp(2rem, 5vw,5rem);
-justify-content: center;
-align-items: center;
-text-align: center;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(2rem, 5vw,5rem);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 `
 
 export const BusinessDesc = styled.p`
-font-weight:700;
-font-family: 'Montserrat', sans-serif;
-font-size: clamp(1.5rem, 2vw,3rem);
-justify-content: center;
-align-items: center;
-text-align:center;
+    font-weight:700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1.5rem, 2vw,3rem);
+    justify-content: center;
+    align-items: center;
+    text-align:center;
 `
-
 export const Name = styled.h2`
-font-weight: 1,600;
-font-size: clamp(2rem, 2vw,3rem);
-padding-top: 8px;
-justify-content: center;
-align-items: center;
-text-align:center;
+    font-weight: 1,600;
+    font-size: clamp(2rem, 2vw,3rem);
+    padding-top: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
 `

@@ -1,5 +1,5 @@
 import React from 'react'
-import {ServiceContainer, ServiceIconWrapper, ServiceWrapper,ServiceLabel, ServiceHeader, ServiceIcon} from './ServicesElements'
+import {ServiceContainer, ServiceIconWrapper, ServiceWrapper,ServiceLabel, ServiceHeader} from './ServicesElements'
 
 
 const Services = () => {

@@ -1,11 +1,8 @@
 import React from 'react'
-import {Nav, NavLink, Bars, NavMenu, NavMenuLeft, NavMenuCenter, NavMenuRight, mainMenu, NavbarContainer, Navlogo} from './NavbarElements'
+import {Nav, NavLink, NavbarContainer, Navlogo} from './NavbarElements'
 import logo from './../../Kloe-Logo.png'
 
 const Navbar = () => {
-
-   
-
     return (
         <div>
             <Nav>
@@ -32,14 +29,9 @@ const Navbar = () => {
                <NavLink to ="/contact">
                    Contact
                </NavLink>
-
-    </NavbarContainer>
-               
-            
-          
-            </Nav>
-        </div>
-    )
+            </NavbarContainer>
+        </Nav>
+    </div>
+)
 }
-
 export default Navbar

@@ -1,0 +1,69 @@
+{
+    "products": [
+      {
+        "_id": "sticker1",
+        "image": "/images/Sticker1.jpg",
+        "title": "Hello Kitty Boba Sticker",
+        "description": "Hello Kitty inspired boba sticker. Paper material and matte finish.",
+        "dimensions": " 1in. x 1in",
+        "price": 1.00
+      },
+      {
+        "_id": "sticker2",
+        "image": "/images/Sticker2.jpg",
+        "title": "Cinnamoroll Boba Sticker",
+        "description": "Cute Boba Sticker inspired by Sanrio's Cinnamoroll character. Paper material and matte finish. ",
+        "dimensions": " 1in. x 1.5in",
+        "price": 1.00
+      },
+      {
+        "_id": "sticker3",
+        "image": "/images/Sticker3.jpg",
+        "title": "Kuromi Boba Sticker",
+        "description": "Cute Boba Sticker inspired by Sanrio's Kuromi character. Paper material and matte finish.",
+        "dimensions": " 1in. x 1.5in",
+        "price": 1.00
+      },
+      {
+        "_id": "sticker4",
+        "image": "/images/Sticker4.jpg",
+        "title": "Pompompurin Boba Sticker",
+        "description": "Cute Boba Sticker inspired by Sanrio's Pompompurin character. Paper material and matte finish.",
+        "dimensions": " 1in. x 1.5in",
+        "price": 1.00
+      },
+      {
+        "_id": "print1",
+        "image": "/images/Print1.jpg",
+        "title": "Jennie Kim Mini Poster",
+        "description": "Poster print of Blackpink's Jennie Kim. Glossy Finish.",
+        "dimensions":  "6in x 6in",
+        "price": 7.00
+      },
+      {
+        "_id": "print2",
+        "image": "/images/Print2.jpg",
+        "title": "Mina Ashido Mini Poster",
+        "description": "Poster print of My Hero Academia's Mina Ashido. Glossy Finish.",
+        "dimensions":  "6in x 6in",
+        "price": 7.00
+      },
+      {
+        "_id": "print3",
+        "image": "/images/Print3.jpg",
+        "title": "My Melody Mini Poster",
+        "description": "Poster print of My Hero Academia's Mina Ashido. Glossy Finish.",
+        "dimensions":  "6in x 6in",
+        "price": 7.00
+      },
+      {
+        "_id": "print4",
+        "image": "/images/Print4.jpg",
+        "title": "Sugawara Koushi Mini Poster",
+        "description": "Poster print of Haikyū!!'s Sugawara Koushi. Glossy Finish.",
+        "dimensions":  "6in x 6in",
+        "price": 7.00
+      }
+
+    ]
+  }

@@ -7,8 +7,8 @@ import { Col1,Col2, InfoContainer,Body, InfoWrapper, Img, Header, Subtitle, ColC
 export const Info = ({header, subtitle, body,sectColor,img,alt, page, link,bgColor, lightText},imgStart) => {
     return (
         <>
-          <InfoContainer className={sectColor}  >
-            <InfoWrapper  imgStart= {imgStart} >
+          <InfoContainer className={sectColor}>
+            <InfoWrapper  imgStart= {imgStart}>
                 <Col1 className={bgColor}>
                   <ColColor className={bgColor}>
                     <Header lightText={lightText}>{header}</Header>

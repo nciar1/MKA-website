@@ -5,6 +5,7 @@ import Home from './pages';
 import Footer from './components/Footer';
 import ErrorPage from './pages/ErrorPage'
 import ContactPage from './pages/contactPage'
+import shop from './pages/Shop';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Switch>
       <Route path = "/" component={Home} exact />
       <Route path = "/Contact" component = {ContactPage} />
+      <Route path = "/Shop" component = {shop} />
+
       <Route component = {ErrorPage} />
     </Switch>
     
